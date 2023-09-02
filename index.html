@@ -4,31 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabo</title>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <header>  
-
-        <div class="logo">
-            <img src="./images/logo.png" alt="Logo: Gabriel"/>
-        </div>
+    <!-- CSS (Forma 1): style inline -->
+    <header>
         <div class="menu-principal">
             <a href="#">Categorias</a>
             <a href="#">Biografia</a>
             <a href="#">Premios</a>
         </div>
+        <div class="logo">
+            <img id="logo" src="./images/logo.png" alt="Logo: Gabriel ">
+        </div>
         
     </header>
-    <main>
-        Aquí va el contenido principal
-        <button onclick="saludar()">Saludame</button>
+    <main class="main">
+        <div class="banner">
+            <h1 class="banner-title"> Gabriel García Márquez</h1>
+        </div>
+        
     </main>
-    <aside>
-        Aquí van los widgets de la página
-    </aside>
-    <footer>
-        Aquí van los widgets de la página
-        Aquí va el pié de página
+   
+    <footer class="footer">
+        Aqui van los Widgets de la pagina
+        Aqui va el pie de pagina
     </footer>
-    <script src="js/main.js"></script>
+
+    <script src="./js/main.js"></script>
 </body>
 </html>

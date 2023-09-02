@@ -1,15 +1,16 @@
 body {
-    display: block;
-    margin: 0px;
+    margin: 0;
 }
 
 header {
+    background-color: lightgray;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row-reverse;
 }
 
-img {
+img#logo {
     width: 8rem;
     padding: 0.5rem;
 }
@@ -17,9 +18,41 @@ img {
 a {
     text-decoration: none;
     font-size: 1.2rem;
-    border: 1px solid;
-    margin: 1.5rem;
     padding: 0.5rem;
+    margin: 0.5rem;
     color: black;
     font-weight: 500;
+}
+
+.main {
+    background-color: #b4c2dd;
+    color: white;
+}
+.banner {
+    background-image: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 28vw;
+    width: 100%;
+    /* height= 25vw significa que la altura corresponde al 25% del ancho 
+    del viewport que agregamos en HTMl dento de meta del header */
+    display: flex;
+    justify-content:flex-end;
+
+
+    /* Si no agregas el display: flex; el sistema no leerá justify-content: flex-end */
+    align-items:center;
+
+}
+
+.banner-title {
+    font-size: 2.5rem;
+    margin-right: 3rem;
+    text-align: right;
+    text-transform: uppercase;
+    width: 25%;
+}
+
+footer {
+    background-color: pink;
 }
