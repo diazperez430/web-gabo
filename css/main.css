@@ -94,6 +94,42 @@ section.obras {
     padding: 2.2rem 0;
 }
 
+table {
+    width: 50%;
+    margin: 0 auto;
+    padding:0 0 1rem 0;
+}
+
+section.premios {
+    color: black;
+}
+
+.premios-title {
+    text-align: center;
+    margin: 2rem 3rem 0
+}
+
+span.date {
+    background: orange;
+    border: 2px solid blue;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+}
+
+tr.primer-premio {
+    height: 6rem;
+}
+
+td {
+    padding-left: 2rem;
+    font-size:0.9rem
+}
 footer {
     background-color: pink;
+}
+
+p.copyright {
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
 }
